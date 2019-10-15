@@ -1,0 +1,80 @@
+-- this is an example
+
+group: nameOfTheNewGroup 
+
+student = {
+	sid:number , sname:string  , email:string
+	1,aaa,aaaqq.com
+	2,bbb,bbbqq
+	3,ccc,cccqq
+	4,ddd,cccdd
+	5,eee,fffrrr
+	
+}
+
+enrollment = {
+sid:number , cid:number, grade:number
+1,1,90
+1,3,85
+2,1,91
+2,3,55
+3,2,87
+4,2,55
+3,4,33
+4,4,44
+5,1,44
+5,2,55
+5,3,66
+5,4,77
+}
+enrollment1 = {
+sid:number , cid:number, grade:number
+1,1,90
+1,3,85
+2,1,91
+2,3,55
+3,2,87
+4,2,55
+3,4,33
+4,4,44
+}
+
+
+course = {
+cid:number, cname:string, year:number, term:string, section:string, credits:number
+1,comp353,2019,fall,aa,4
+2,comp249,2019,fall,bb,3
+3,comp345,2019,fall,cc,3
+4,comp346,2019,fall,dd,3
+}
+
+teach ={
+cid:number, profname:string
+1,alex
+2,bob
+3,alex
+4,bob
+}
+table ={
+enrollsid:number, enrollcid:number,teachname:string,sname:string
+1,1,alex,aaa
+1,3,alex,aaa
+2,1,alex,bbb
+2,3,alex,bbb
+3,2,bob,ccc
+4,2,bob,ddd
+3,4,bob,ccc
+4,4,bob,ddd
+}
+table1 ={
+enrollsid:number, enrollcid:number,teachname:string,sname:string
+1,1,alex,aaa
+1,3,alex,aaa
+2,1,alex,bbb
+2,3,alex,bbb
+3,2,bob,ccc
+4,2,bob,ddd
+3,4,bob,ccc
+4,4,bob,ddd
+}
+
